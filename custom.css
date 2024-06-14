@@ -1,0 +1,19 @@
+/* flag */
+.codeboard:hover .flag:after {
+    content: attr(content);
+    position: absolute;
+    top: -18px;
+  }
+  .codeboard:hover .flag:after {
+    content: attr(content);
+    position: absolute;
+    top: -18px;
+    background: #95da6d;
+    color: black;
+    padding: 2px 18px;
+    border-radius: 10px;
+    transition-duration: 1s;
+  }
+  .flag{
+    position: relative;
+  }
